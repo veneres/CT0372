@@ -1,3 +1,5 @@
+package university;
+
 public class Student {
     private String name;
     private String surname;
@@ -11,7 +13,7 @@ public class Student {
         Student.numberOfStudent += 1;
     }
 //
-//    public Student(String name, String surname, String nickname) {
+//    public university.Student(String name, String surname, String nickname) {
 //        this(name, surname);
 //        this.nickname = nickname;
 //    }
@@ -37,6 +39,7 @@ public class Student {
         Student john = new Student("John", "Lennon");
         Student paul = new Student("Paul", "McCartney");
         Student carl = new Student("Richard", "Starkey");
+        Person.a
         System.out.println(john.getName());
         System.out.println(carl.getName());
         carl.printThis();
