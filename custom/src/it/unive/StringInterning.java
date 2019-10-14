@@ -1,4 +1,4 @@
-package it.unive.custom;
+package it.unive;
 
 /*
     Simple class/main used to explain Java String Interning

@@ -16,7 +16,7 @@ public class Rectangles {
     public static void main(String[] args){
 
         Random generator = new Random();
-        // it.unive.custom.rectangles.Rectangles generation
+        // it.unive.custom.it.unive.rectangles.Rectangles generation
         Rectangle[] rect = new Rectangle[N_RECT];
         for (int i = 0; i < rect.length; i++) {
             int width = generator.nextInt(MAX_SZ - MIN_SZ) + MIN_SZ;

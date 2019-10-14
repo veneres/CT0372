@@ -31,7 +31,7 @@ public class Library {
         Library firstLibrary = new Library("10 Main St.");
         Library secondLibrary = new Library("228 Liberty St.");
 
-        // Add four books to the first library
+        // Add four books to the first it.unive.library
         firstLibrary.addBook(new Book("The Da Vinci Code"));
         firstLibrary.addBook(new Book("Le Petit Prince"));
         firstLibrary.addBook(new Book("A Tale of Two Cities"));
@@ -55,20 +55,20 @@ public class Library {
         System.out.println();
 
         // Print the titles of all available books from both libraries
-        System.out.println("Books available in the first library:");
+        System.out.println("Books available in the first it.unive.library:");
         firstLibrary.printAvailableBooks();
         System.out.println();
-        System.out.println("Books available in the second library:");
+        System.out.println("Books available in the second it.unive.library:");
         secondLibrary.printAvailableBooks();
         System.out.println();
 
-        // Return The Lords of the Rings to the first library
+        // Return The Lords of the Rings to the first it.unive.library
         System.out.println("Returning The Lord of the Rings:");
         firstLibrary.returnBook("The Lord of the Rings");
         System.out.println();
 
-        // Print the titles of available from the first library
-        System.out.println("Books available in the first library:");
+        // Print the titles of available from the first it.unive.library
+        System.out.println("Books available in the first it.unive.library:");
         firstLibrary.printAvailableBooks();
     }
 

@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 /**
- * A more OOP approach to rectangles problem
+ * A more OOP approach to it.unive.rectangles problem
  */
 @SuppressWarnings("Duplicates")
 public class RectanglesManager {

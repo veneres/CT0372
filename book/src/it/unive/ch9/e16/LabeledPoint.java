@@ -1,4 +1,4 @@
-package it.unive.ch11.e15;
+package it.unive.ch9.e16;
 
 import java.awt.*;
 
@@ -18,7 +18,10 @@ public class LabeledPoint  extends Point {
     }
 
     public String toString(){
-        return  String.format("it.unive.ch11.e15.LabeledPoint[x=%d,y=%d,label=\"%s\"]", x, y, label);
+        String parentToString = super.toString();
+        // parentToString transformation used to delete the character "["
+        String toAdd = String.format(",\"%s\"]", this.label);
+        return parentToString.replace("]", toAdd);
     }
 
     public static void main(String[] args) {
