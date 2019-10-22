@@ -1,6 +1,6 @@
-package it.unive.custom.university;
+package it.unive.university.roles;
 
-public class Student extends Person{
+public class Student extends Person {
     //private String nickname;
 
     public static int numberOfStudent = 0;

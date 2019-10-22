@@ -1,4 +1,4 @@
-package it.unive.custom.rectangles;
+package it.unive.rectangles;
 
 public class RectanglesTest {
     public static void main(String[] args) {

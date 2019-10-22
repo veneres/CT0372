@@ -1,4 +1,4 @@
-package it.unive.custom.university;
+package it.unive.university.roles;
 
 import java.util.ArrayList;
 

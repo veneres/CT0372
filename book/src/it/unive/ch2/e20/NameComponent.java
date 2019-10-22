@@ -13,13 +13,12 @@ public class NameComponent extends JComponent {
     }
 
     public NameComponent(String name) {
-        this(name, 20);
+        this(name, 5);
     }
 
     @Override
     public void paintComponent(Graphics g) {
         Graphics2D g2 = (Graphics2D) g;
-        // Create and resize the rectangle
         // Compute the right font size
         Font actualFont = g2.getFont();
         int stringWidth = g2.getFontMetrics().stringWidth(this.name) + 2 * padding;

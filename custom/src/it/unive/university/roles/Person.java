@@ -1,6 +1,6 @@
-package it.unive.custom.university;
+package it.unive.university.roles;
 
-public class Person {
+public abstract class Person {
     private String name;
     private String surname;
 
@@ -21,8 +21,4 @@ public class Person {
         System.out.println("I'm " + this.name + " " + this.surname);
     }
 
-    public static void main(String[] args) {
-        Person prova = new Person("Alberto", "Veneri");
-        prova.sayHello();
-    }
 }

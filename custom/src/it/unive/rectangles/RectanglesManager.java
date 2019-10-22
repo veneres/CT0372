@@ -1,4 +1,4 @@
-package it.unive.custom.rectangles;
+package it.unive.rectangles;
 
 import java.awt.*;
 import java.util.Arrays;
