@@ -1,4 +1,4 @@
-package it.unive.custom.library.solution;
+package it.unive.university.library.solution;
 
 /**
  * Deeply inspired by Introduction to programming in Java, MIT OpenCourseWare
@@ -77,7 +77,7 @@ public class Library {
         Library firstLibrary = new Library("10 Main St.");
         Library secondLibrary = new Library("228 Liberty St.");
 
-        // Add four books to the first library
+        // Add four books to the first it.unive.library
         boolean checkAdd;
         checkAdd = firstLibrary.addBook(new Book("The Da Vinci Code"));
         checkAdd = checkAdd && firstLibrary.addBook(new Book("Le Petit Prince"));
@@ -98,35 +98,35 @@ public class Library {
         System.out.println();
 
         // Try to borrow The Lords of the Rings from both libraries
-        System.out.println("Borrowing The Lord of the Rings from the first library:");
+        System.out.println("Borrowing The Lord of the Rings from the first it.unive.library:");
         if(firstLibrary.borrowBook("The Lord of the Rings")){
             System.out.println("Done");
         }
-        System.out.println("Borrowing The Lord of the Rings from the first library:");
+        System.out.println("Borrowing The Lord of the Rings from the first it.unive.library:");
         if(!firstLibrary.borrowBook("The Lord of the Rings")){
             System.out.println("No \"The Lord of the Rings\" available");
         }
-        System.out.println("Borrowing The Lord of the Rings from the second library:");
+        System.out.println("Borrowing The Lord of the Rings from the second it.unive.library:");
         if(!secondLibrary.borrowBook("The Lord of the Rings")) {
             System.out.println("No \"The Lord of the Rings\" available");
         }
         System.out.println();
 
         // Print the titles of all available books from both libraries
-        System.out.println("Books available in the first library:");
+        System.out.println("Books available in the first it.unive.library:");
         firstLibrary.printAvailableBooks();
         System.out.println();
-        System.out.println("Books available in the second library:");
+        System.out.println("Books available in the second it.unive.library:");
         secondLibrary.printAvailableBooks();
         System.out.println();
 
-        // Return The Lords of the Rings to the first library
+        // Return The Lords of the Rings to the first it.unive.library
         System.out.println("Returning The Lord of the Rings:");
         firstLibrary.returnBook("The Lord of the Rings");
         System.out.println();
 
-        // Print the titles of available from the first library
-        System.out.println("Books available in the first library:");
+        // Print the titles of available from the first it.unive.library
+        System.out.println("Books available in the first it.unive.library:");
         firstLibrary.printAvailableBooks();
     }
 

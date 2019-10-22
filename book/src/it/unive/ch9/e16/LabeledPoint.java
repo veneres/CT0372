@@ -17,6 +17,7 @@ public class LabeledPoint  extends Point {
         this.label = label;
     }
 
+    @Override
     public String toString(){
         String parentToString = super.toString();
         // parentToString transformation used to delete the character "["

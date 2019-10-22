@@ -4,10 +4,10 @@ import java.awt.*;
 
 public class LabeledPoint {
     private String label;
-    private double x;
-    private double y;
+    private int x;
+    private int y;
 
-    public LabeledPoint(double x, double y, String label) {
+    public LabeledPoint(int x, int y, String label) {
         this.label = label;
         this.x = x;
         this.y = y;
@@ -27,11 +27,11 @@ public class LabeledPoint {
     }
 
 
-    public void setX(double x) {
+    public void setX(int x) {
         this.x = x;
     }
 
-    public void setY(double y) {
+    public void setY(int y) {
         this.y = y;
     }
 
@@ -39,6 +39,7 @@ public class LabeledPoint {
         this.label = label;
     }
 
+    @Override
     public String toString() {
         return String.format("LabeledPoint[x=%d,y=%d,label=\"%s\"]", x, y, label);
     }

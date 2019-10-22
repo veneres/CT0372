@@ -1,4 +1,4 @@
-package it.unive.custom.library.solution;
+package it.unive.university.library.solution;
 
 /**
  * Deeply inspired by Introduction to programming in Java, MIT OpenCourseWare
