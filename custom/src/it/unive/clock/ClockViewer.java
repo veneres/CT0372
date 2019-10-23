@@ -11,10 +11,16 @@ public class ClockViewer {
         ClockComponent comp = new ClockComponent();
         frame.add(comp);
         frame.setVisible(true);
-        Timer timer = new Timer(500, actionEvent -> {
-            frame.revalidate();
-            frame.repaint();
-        });
+        // a quick and dirty way to update the clock
+        Timer timer = new Timer(500, actionEvent -> frame.repaint());
+        /**
+         * Same as
+         *  Timer timer = new Timer(500, new AbstractAction()
+         *              @Override
+         *              public void actionPerformed(ActionEvent actionEvent) {
+         *                  frame.repaint();
+         *              }});
+         */
         timer.start();
     }
 }
