@@ -46,6 +46,7 @@ public class ClockComponent extends JComponent {
         g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 
         Calendar date = new GregorianCalendar();
+        // center
         Point2D c = new Point2D.Double((double)getWidth() / 2, (double)getHeight() / 2);
         double r = Math.min(c.getX(), c.getY());
 
@@ -54,7 +55,6 @@ public class ClockComponent extends JComponent {
         g.setStroke(new BasicStroke(4.0f));
         g.setColor(Color.black);
         g.draw(getQuadrant(c, r));
-
 
         g.setStroke(new BasicStroke(4.0f));
         for (int tick = 0; tick < 60; tick += 5)
