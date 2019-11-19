@@ -9,7 +9,8 @@ import java.awt.event.MouseEvent;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Line2D;
 import javax.swing.JComponent;
-import static tris.TrisGame.Symbols.*;
+
+import static it.unive.tris.base.TrisGame.Symbols.EMPTY;
 
 public class TrisDisplayComponent extends JComponent{
 
