@@ -21,10 +21,10 @@ public class ArrayExample {
         return v[i];
     }
 
-    public void printEvenIndex(){
+    public void printEvenIndex() {
         System.out.println("Even indices");
         for (int i = 0; i < v.length; i += 2) {
-            System.out.print(v[i] +" ");
+            System.out.print(v[i] + " ");
         }
         System.out.println();
     }
